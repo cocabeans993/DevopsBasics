@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: self_ip_agent
+pool: self_ip_agent
 
 steps:
 - task: Maven@3
