@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: self_ip_agent
+pool: 
+  vmImage: 'ubuntu-latest'
 
 steps:
 - task: Maven@3
